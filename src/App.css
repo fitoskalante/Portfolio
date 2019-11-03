@@ -1,22 +1,48 @@
-.App {
-  text-align: center;
+html, body {
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
+.landing-container {
+  background-image: url(./components/img/backgroundLanding.svg);
+  background-size: cover;
+  height: auto;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.fab {
+  color: black;
+}
+
+.fab:hover {
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.card-style {
+  max-width: 600px;
+  min-width: 315px;
+  border: 8px solid #ffc107;
+}
+
+.section-name {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.paragraph-style {
+  display: inline;
+  padding: 0.5em 0em;
+  background-color: #ffc107;
+  box-shadow: 0.50em 0 0 #ffc107, -0.50em 0 0 #ffc107;
+  box-decoration-break: clone;
+  line-height: 2.5;
+}
+
+.input-contact {
+  background-color: #ffc107;
+  border: 2px solid black;
+}
+
+.navbar-nav>.active {
+  border-bottom: 5px solid white;
 }
